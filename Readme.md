@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Sofia Abaeva](https://up.htmlacademy.ru/htmlcss/27/user/1226095).
-* Наставник: `Михаил Савотиков`.
+* Наставник: [Михаил Савотиков](https://htmlacademy.ru/profile/id98316).
 
 ---
 
