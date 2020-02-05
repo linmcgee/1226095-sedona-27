@@ -70,17 +70,21 @@
         <p>Укажите предпологаемые даты поездки<br/>
         И мы покажем вам лучшие предложения гостиниц в Седоне</p>
       </section>
+      <button>Поиск гостиницы в Седоне</button>
       <section>
-        <form action="index.html" method="post">
-          <legend>Поиск гостиницы в Седоне</legend>
+        <form action="/" method="post">
           <label for="arrival-date">Дата заезда:</label>
           <input type="text" name="arrival-date" placeholder="24 апреля 2017" required>
+          <button name="calendar-arrival"><!--календарь--></button>
           <label for="departure-date">Дата выезда:</label>
           <input type="text" name="departure-date" placeholder="4 июля 2017">
+          <button name="calendar-departure"><!--календарь--></button>
           <label for="adults">Взрослые:</label>
+          <button>-</button>
           <input type="number" name="adults" min="1" step="1" value="2" required>
           <label for="children">Дети:</label>
           <input type="number" name="children" min="0" step="1" value="0">
+          <button>+</button>
           <button type="submit">Найти</button>
         </form>
       </section>
