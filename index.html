@@ -75,16 +75,16 @@
         <form action="/" method="post">
           <label for="arrival-date">Дата заезда:</label>
           <input type="text" name="arrival-date" placeholder="24 апреля 2017" required>
-          <button name="calendar-arrival"><!--календарь--></button>
+          <button type="button"><span class="visually-hidden">Выбрать дату заезда</span></button>
           <label for="departure-date">Дата выезда:</label>
           <input type="text" name="departure-date" placeholder="4 июля 2017">
-          <button name="calendar-departure"><!--календарь--></button>
+          <button type="button"><span class="visually-hidden">Выбрать дату выезда</span></button>
           <label for="adults">Взрослые:</label>
-          <button>-</button>
+          <button type="button">-</button>
           <input type="number" name="adults" min="1" step="1" value="2" required>
           <label for="children">Дети:</label>
           <input type="number" name="children" min="0" step="1" value="0">
-          <button>+</button>
+          <button type="button">+</button>
           <button type="submit">Найти</button>
         </form>
       </section>
