@@ -73,17 +73,17 @@
       <button>Поиск гостиницы в Седоне</button>
       <section>
         <form action="/" method="post">
-          <label for="arrival-date">Дата заезда:</label>
-          <input type="text" name="arrival-date" placeholder="24 апреля 2017" required>
+          <label for="check-arrival-date">Дата заезда:</label>
+          <input type="text" name="arrival-date" id="check-arrival-date" placeholder="24 апреля 2017" required>
           <button type="button"><span class="visually-hidden">Выбрать дату заезда</span></button>
-          <label for="departure-date">Дата выезда:</label>
-          <input type="text" name="departure-date" placeholder="4 июля 2017">
+          <label for="check-departure-date">Дата выезда:</label>
+          <input type="text" name="departure-date" placeholder="4 июля 2017" id="check-departure-date">
           <button type="button"><span class="visually-hidden">Выбрать дату выезда</span></button>
-          <label for="adults">Взрослые:</label>
+          <label for="quantity-adults">Взрослые:</label>
           <button type="button">-</button>
-          <input type="number" name="adults" min="1" step="1" value="2" required>
-          <label for="children">Дети:</label>
-          <input type="number" name="children" min="0" step="1" value="0">
+          <input type="number" name="adults" min="1" step="1" value="2" id="quantity-adults" required>
+          <label for="quantity-children">Дети:</label>
+          <input type="number" name="children" id="quantity-children" min="0" step="1" value="0">
           <button type="button">+</button>
           <button type="submit">Найти</button>
         </form>

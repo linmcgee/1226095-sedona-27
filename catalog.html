@@ -20,29 +20,55 @@
     <main>
       <section>
         <section>
-        <p>Инфраструктура:</p>
+          <form action="/" method="post">
+        <legend>Инфраструктура</legend>
         <ul>
-          <li>Бассейн</li>
-          <li>Парковка</li>
-          <li>Wi-Fi</li>
+          <li>
+           <input type="checkbox" name="pool" id="filter-pool" checked>
+           <label for="filter-pool">Бассейн</label>
+            </li>
+          <li>
+          <input type="checkbox" name="parking" id="filter-parking">
+          <label for="filter-parking">Парковка</label>
+            </li>
+          <li>
+          <input type="checkbox" name="wi-fi" id="filter-wi-fi">
+          <label for="filter-wi-fi">Wi-Fi</label>
+          </li>
         </ul>
+      </form>
         </section>
         <section>
-        <p>Тип жилья</p>
+        <form action="/" method="post">
+        <legend>Тип жилья</legend>
         <ul>
-          <li>Гостиница</li>
-          <li>Мотель</li>
-          <li>Апартаменты</li>
+          <li>
+          <input type="checkbox" name="hotel" id="filter-hotel" checked>
+          <label for="filter-hotel">Гостиница</label>
+          </li>
+          <li>
+          <input type="checkbox" name="motel" id="filter-motel" checked>
+          <label for="filter-motel">Мотель</label></li>
+          <li> <input type="checkbox" name="apartments" id="filter-apartments" checked>
+          <label for="filter-apartments">Апартаменты</label></li></li>
+        </ul>
+      </form>
           </section>
           <section>
-            <p>Стоимость в сутки(Р):</p>
-            <table>
-              <tr>
-                <td>От 0</td>
-                <td>До 3000</td>
-              </tr>
-            </table>
-            <a href="">Показать</a>
+            <form action="/" method="post">
+            <legend>Стоимость в сутки(Р):</legend>
+            <label for="filter-min-value">От</label>
+            <input type="text" name="min-value" id="filter-min-value">
+            <label for="filter-max-value">До</label>
+            <input type="text" name="max-value" id="filter-max-value">
+          </form>
+          <div>
+            <div class="area-value-1"></div> <!--до максимального значения-->
+            <div class="min-value-runner"></div>
+            <div class="max-value-runner"></div>
+            <div class="area-value-2"></div> <!--после максимального значения-->
+          </div>
+            <button type="button">Показать</button>
           </section>
           <section>
             <h2>Найдено: 3</h2>
