@@ -18,9 +18,9 @@
       </nav>
     </header>
     <main>
-      <section>
         <section>
           <form action="/" method="post">
+            <fieldset>
         <legend>Инфраструктура</legend>
         <ul>
           <li>
@@ -36,10 +36,8 @@
           <label for="filter-wi-fi">Wi-Fi</label>
           </li>
         </ul>
-      </form>
-        </section>
-        <section>
-        <form action="/" method="post">
+          </fieldset>
+          <fieldset>
         <legend>Тип жилья</legend>
         <ul>
           <li>
@@ -49,26 +47,26 @@
           <li>
           <input type="checkbox" name="motel" id="filter-motel" checked>
           <label for="filter-motel">Мотель</label></li>
-          <li> <input type="checkbox" name="apartments" id="filter-apartments" checked>
-          <label for="filter-apartments">Апартаменты</label></li></li>
+          <li> 
+          <input type="checkbox" name="apartments" id="filter-apartments" checked>
+          <label for="filter-apartments">Апартаменты</label></li>
         </ul>
-      </form>
-          </section>
-          <section>
-            <form action="/" method="post">
+               </fieldset>
+            <fieldset>
             <legend>Стоимость в сутки(Р):</legend>
-            <label for="filter-min-value">От</label>
-            <input type="text" name="min-value" id="filter-min-value">
-            <label for="filter-max-value">До</label>
-            <input type="text" name="max-value" id="filter-max-value">
+            <label for="filter-min-price">От</label>
+            <input type="text" name="min-value" id="filter-min-price">
+            <label for="filter-max-price">До</label>
+            <input type="text" name="max-value" id="filter-max-price">
+            </fieldset>
           </form>
-          <div>
-            <div class="area-value-1"></div> <!--до максимального значения-->
-            <div class="min-value-runner"></div>
-            <div class="max-value-runner"></div>
-            <div class="area-value-2"></div> <!--после максимального значения-->
+          <div class="range-outer-bar"> <!--бледная полоска-->
+            <div class="range-inner-bar"> <!--белая полоска-->
+            <div class="min-value-runner"></div> <!--бегунок для минимума-->
+            <div class="max-value-runner"></div> <!--бегунок для максимума-->
+            </div> 
           </div>
-            <button type="button">Показать</button>
+            <button type="submit">Показать</button>
           </section>
           <section>
             <h2>Найдено: 3</h2>
