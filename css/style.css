@@ -9,8 +9,8 @@ body {
     padding: 0;
     font-family: "PT Sans", Arial, sans-serif;
     font-size: 14px;
-    line-height: 26px;
-    font-weight: bold;
+    line-height: 21px;
+    font-weight: normal;
     color: #333333;
     text-transform: uppercase;
    
@@ -25,7 +25,7 @@ a {
 .navigation {
   font-size: 16px;
   line-height: 20px;
-  color: #333333;
+  color: #000000;
 
   background-color: #ffffff;
 }
@@ -33,10 +33,122 @@ a {
   list-style: none;
 }
 
-.site-navigation a{
-  color: #333333;
+.site-navigation a {
+  color: #000000;
+  font-weight: bold;
 }
 
 .site-navigation a:hover {
   color: #81b3d2;
+}
+
+.features {
+    text-align: center;
+}
+.features h3 {
+    font-size: 21px;
+    font-weight: bold;
+
+}
+.features-individual {
+    background-color: #81b3d2;
+    color:#ffffff;
+}
+.features-classic{
+    background-color:#ffffff;
+}
+.features-classic h4 {
+    font-weight: bold;
+    font-size:21px;
+}
+.features-repose {
+    background-color: #eeeeee;
+    color:#000000;
+    font-size:14;
+}
+.features-repose h3 {
+    font-weight: bold;
+    font-size:21px;
+}
+.more-info {
+    text-align: center;
+}
+.more-info strong {
+    font-size:30px;
+}
+.search-hotel
+{
+  font: inherit;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #766357;
+  border: none;
+}
+.map {
+    text-align: center;
+    background-image: url("img/map.jpg");
+    background-repeat: no-repeat;
+}
+.footer
+{
+    background-color:#ffffff;
+    }
+.contact-info {
+    text-align: left;
+    font-size:21px;
+    font-weight: bold;
+}
+.footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color:#000000;
+}
+.social-network {
+    list-style: none;
+}
+.developer {
+    font-weight: bold;
+    text-align: right;
+}
+
+
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+.features-classic-pic:nth-child(1)
+{
+    background-image: url("img/icons/icon-1.svg");
+    background-repeat: no-repeat;
+}
+.features-classic-pic:nth-child(2)
+{
+    background-image: url("img/icons/icon-2.svg");
+    background-repeat: no-repeat;
+}
+.features-classic-pic:nth-child(3)
+{
+    background-image: url("img/icons/icon-3.svg");
+    background-repeat: no-repeat;
+}
+
+.social-network li:nth-child(1) {
+    background-image: url("img/icons/twitter.svg");
+    background-repeat: no-repeat;
+}
+.social-network li:nth-child(2) {
+    background-image: url("img/icons/fb-icon.svg");
+      background-repeat: no-repeat;
+}
+.social-network li:nth-child(3) {
+    background-image: url("img/icons/youtube.svg");
+    background-repeat: no-repeat;
 }
