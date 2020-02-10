@@ -175,3 +175,21 @@ a {
 .rating {
     list-style-image: url("/img/icons/star.svg");
 }
+.white {
+    background-color: #ffffff;
+}
+.detail
+{
+    padding: 3px 17px;
+    color: #ffffff;
+    background-color: #81b3d2;
+    font-size: 14px;
+    font-weight: bold;
+}
+.reservation {
+    padding: 3px 17px;
+    color: #ffffff;
+    background-color: #766357;
+    font-size: 14px;
+    font-weight: bold;
+}
