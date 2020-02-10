@@ -15,7 +15,7 @@ body {
     text-transform: uppercase;
    
     background-color: #f2f2f2;
-    background-image: url("img/background-photo.jpg");
+    background-image: url("/img/background-photo.jpg");
     background-position: top center;
     background-repeat: no-repeat;
 }
@@ -90,7 +90,7 @@ a {
 }
 .map {
     text-align: center;
-    background-image: url("img/map.jpg");
+    background-image: url("/img/map.jpg");
     background-repeat: no-repeat;
 }
 .footer
@@ -126,29 +126,52 @@ a {
 }
 .features-classic-pic:nth-child(1)
 {
-    background-image: url("img/icons/icon-1.svg");
+    background-image: url("/img/icons/icon-1.svg");
     background-repeat: no-repeat;
 }
 .features-classic-pic:nth-child(2)
 {
-    background-image: url("img/icons/icon-2.svg");
+    background-image: url("/img/icons/icon-2.svg");
     background-repeat: no-repeat;
 }
 .features-classic-pic:nth-child(3)
 {
-    background-image: url("img/icons/icon-3.svg");
+    background-image: url("/img/icons/icon-3.svg");
     background-repeat: no-repeat;
 }
 
-.social-network li:nth-child(1) {
-    background-image: url("img/icons/twitter.svg");
-    background-repeat: no-repeat;
+/*.social-network:nth-child(1) {
+    list-style-image: url("/img/icons/star.svg");
 }
 .social-network li:nth-child(2) {
-    background-image: url("img/icons/fb-icon.svg");
+    background-image: url("/img/icons/fb-icon.svg");
       background-repeat: no-repeat;
 }
 .social-network li:nth-child(3) {
-    background-image: url("img/icons/youtube.svg");
+    background-image: url("/img/icons/youtube.svg");
     background-repeat: no-repeat;
+}-*/
+
+.list-hotels {
+    list-style: none;
+}
+.list-hotels a {
+    text-decoration: none;
+    color:#000000;
+}
+.list-hotels a:hover {
+    color: #81b3d2;
+}
+.filter-form {
+    color:#ffffff;
+    background-color: #81b3d2;
+    background-image: url("/img/filter-background.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.filter-list {
+    list-style: none;
+}
+.rating {
+    list-style-image: url("/img/icons/star.svg");
 }
