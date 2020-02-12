@@ -238,6 +238,17 @@ a {
     font-weight: bold;
 }
 .form-arrival input {
+    font-size: 14px;
     font-weight: bold;
+    background-color: #f2f2f2;
+    outline: none;
+    border:none;
     color:#000000;
+}
+.form-arrival input:hover {
+    background-color: #ebebeb;
+}
+.form-arrival input:focus {
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
 }
