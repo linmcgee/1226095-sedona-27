@@ -171,7 +171,7 @@ a {
 .filter-form {
     color:#ffffff;
     background-color: #81b3d2;
-    background-image: url("/img/filter-background.jpg");
+    background-image: url("../img/filter-background.jpg");
     background-position: top center;
     background-repeat: no-repeat;
 }
@@ -179,7 +179,13 @@ a {
     list-style: none;
 }
 .rating {
-    list-style-image: url("/img/icons/star.svg");
+    text-align:right;
+}
+.rating p {
+
+}
+.star {
+    list-style: url("../img/icons/star.svg");
 }
 
 .detail
@@ -223,4 +229,10 @@ a {
     background-color: #81b3d2;
     border: none;
 }
-
+.form-arrival label{
+    font-weight: bold;
+}
+.form-arrival input {
+    font-weight: bold;
+    color:#000000;
+}
