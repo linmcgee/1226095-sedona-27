@@ -52,13 +52,15 @@ a {
 .site-navigation a:active {
     color:#b2b2b2;
 }
+.basic-info {
+    text-align: center;
+}
 .features {
     text-align: center;
 }
 .features h3 {
     font-size: 21px;
     font-weight: bold;
-
 }
 .features-individual {
     background-color: #81b3d2;
@@ -181,8 +183,11 @@ a {
 .rating {
     text-align:right;
 }
-.rating p {
-
+.rating-value {
+    padding: 3px 17px;
+    color: #797979;
+    font-size: 14px;
+    background-color: #f2f2f2;
 }
 .star {
     list-style: url("../img/icons/star.svg");
