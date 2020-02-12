@@ -62,23 +62,23 @@ a {
     font-size: 21px;
     font-weight: bold;
 }
-.features-individual {
+.features-blue {
     background-color: #81b3d2;
     color:#ffffff;
 }
-.features-classic{
+.features-white{
     background-color:#ffffff;
 }
-.features-classic h4 {
+.features-white h4 {
     font-weight: bold;
     font-size:21px;
 }
-.features-repose {
+.features-grey {
     background-color: #eeeeee;
     color:#000000;
-    font-size:14;
+    font-size:14px;
 }
-.features-repose h3 {
+.features-grey h3 {
     font-weight: bold;
     font-size:21px;
 }
@@ -88,37 +88,34 @@ a {
 .more-info strong {
     font-size:30px;
 }
-.search-hotel
-{
+.search-hotel {
   font: inherit;
 
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
-    font-size:21px;
+    font-size: 21px;
     font-weight: bold;
   /*  padding: 30px 0; */
     background-color: #766357;
     border: none;
 }
 .map {
-    text-align: center;
     background-image: url("../img/map.jpg");
     background-repeat: no-repeat;
 }
-.footer
-{
-    background-color:#ffffff;
-    }
+.footer {
+    background-color: #ffffff;
+}
 .contact-info {
     text-align: left;
-    font-size:21px;
+    font-size: 21px;
     font-weight: bold;
 }
 .footer a {
     text-decoration: none;
     font-weight: bold;
-    color:#000000;
+    color: #000000;
 }
 .social-network {
     list-style: none;
@@ -162,16 +159,16 @@ a {
     text-decoration: none;
 }
 .hotels-name {
-    color:#000000;
+    color: #000000;
 }
 .hotels-name:hover {
-    color:#81b3d2;
+    color: #81b3d2;
 }
 .hotels-name:active {
-    color:#b2b2b2;
+    color: #b2b2b2;
 }
 .filter-form {
-    color:#ffffff;
+    color: #ffffff;
     background-color: #81b3d2;
     background-image: url("../img/filter-background.jpg");
     background-position: top center;
@@ -189,12 +186,11 @@ a {
     font-size: 14px;
     background-color: #f2f2f2;
 }
-.star {
+.stars {
     list-style: url("../img/icons/star.svg");
 }
 
-.detail
-{
+.detail {
     padding: 3px 17px;
     color: #ffffff;
     background-color: #81b3d2;
@@ -202,11 +198,11 @@ a {
     font-weight: bold;
 }
 .detail:hover {
-    background-color:#669ec0;
+    background-color: #669ec0;
 }
 .detail:active {
     background-color: #5496bd;
-    color:#76abca;
+    color: #76abca;
 }
 .reservation {
     padding: 3px 17px;
@@ -242,8 +238,8 @@ a {
     font-weight: bold;
     background-color: #f2f2f2;
     outline: none;
-    border:none;
-    color:#000000;
+    border: none;
+    color: #000000;
 }
 .form-arrival input:hover {
     background-color: #ebebeb;
