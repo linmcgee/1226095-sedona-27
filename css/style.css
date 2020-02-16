@@ -133,19 +133,19 @@ a {
   height: 1px;
   margin: -1px;
 }
-.features-classic-pic:nth-child(1)
+.housing
 {
     background-image: url("../img/icons/icon-1.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-.features-classic-pic:nth-child(2)
+.food
 {
     background-image: url("../img/icons/icon-2.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-.features-classic-pic:nth-child(3)
+.souvenirs
 {
     background-image: url("../img/icons/icon-3.svg");
     background-repeat: no-repeat;
