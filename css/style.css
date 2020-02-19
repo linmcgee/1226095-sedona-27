@@ -247,3 +247,20 @@ a {
     background-color: #ffffff;
     border: 1px solid #e5e5e5;
 }
+
+.sort a {
+    border-bottom: 1.5px dotted #81b3d2;
+    color: #b2b2b2;
+}
+.sort a:hover {
+    border-bottom: 1.5px dotted #81b3d2;
+    color: #81b3d2;
+}
+.sort a:active {
+    border-bottom: none;
+    color: #000000;
+}
+.active a {
+    border-bottom: none;
+    color: #81b3d2;
+}
