@@ -169,8 +169,29 @@ a {
     background-position: top center;
     background-repeat: no-repeat;
 }
+.filter-form legend {
+    font-weight: bold;
+}
+.filter-form fieldset {
+    border:0 none;
+}
 .filter-list {
     list-style: none;
+}
+.filter-form button {
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+    border-radius: 3px;
+    border-color: white;
+    outline: none;
+    background: none;
+    padding: 5px 40px;
+}
+.filter-form button:hover {
+    background-color: #ffffff;
+    color: #000000;
 }
 .rating {
     text-align: right;
@@ -263,4 +284,16 @@ a {
 .active a {
     border-bottom: none;
     color: #81b3d2;
+}
+.icon-filter {
+    fill: #cacaca;
+}
+.icon-filter:hover {
+    fill: #272324;
+}
+.icon-filter:active {
+    fill: #81b3d2;
+}
+.icon-filter-active {
+    fill: #81b3d2;
 }
