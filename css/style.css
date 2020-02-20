@@ -180,11 +180,12 @@ a {
 }
 .filter-form button {
     font-family: "PT Sans", Arial, sans-serif;
+    text-transform: uppercase;
     font-size: 14px;
     line-height: 21px;
     color: white;
     border-radius: 3px;
-    border-color: white;
+    border: 2px solid white;
     outline: none;
     background: none;
     padding: 5px 40px;
