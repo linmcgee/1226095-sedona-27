@@ -270,12 +270,15 @@ a {
     border: 1px solid #e5e5e5;
 }
 
+.sort {
+    list-style: none;
+}
 .sort a {
-    border-bottom: 1.5px dotted #81b3d2;
+    border-bottom: 1px dotted #81b3d2;
     color: #b2b2b2;
 }
 .sort a:hover {
-    border-bottom: 1.5px dotted #81b3d2;
+    border-bottom: 1px dotted #81b3d2;
     color: #81b3d2;
 }
 .sort a:active {
