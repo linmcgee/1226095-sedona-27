@@ -11,7 +11,8 @@
     <div class="container">
     <header class="header">
         <a class="header-logo"><img src="img/logo-sedona.svg" alt="Логотип Седоны" width="100" height="50"/></a>
-      <nav class="navigation">
+         <div class="main-navigation-wrapper">
+        <nav class="navigation">
         <ul class="site-navigation">
           <li><a href="">Информация</a></li>
           <li><a href="">Фото и видео</a></li>
@@ -19,11 +20,12 @@
           <li><a href="catalog.html">Гостиницы</a></li>
         </ul>
       </nav>
+         </div>
     </header>
     <main>
      <section>
       <div class="background-index"> 
-          <img src="img/intro-welcome.svg" alt="" width="459" height="353"/>
+          <img class="intro-welcome" src="img/intro-welcome.svg" alt="" width="459" height="353"/>
       </div>
       <div class="basic-info">
          <h1> Седона — небольшой городок в Аризоне, 
@@ -34,12 +36,15 @@
       </section>
       <section class="features">
         <article class="features-blue">
+          <div class="features-blue-text-city">
           <h3>Настоящий городок</h3>
           <p>— №1 —</p> 
           <p>Седона - не аттракцион для туристов, там течет своя жизнь</p>
-          <img src="img/city.jpg" alt="Фотография города" width="100" height="50"/>
+        </div>
+          <img src="img/city.jpg" alt="Фотография города" width="800" height="256"/>
         </article>
-          <article class="features-white housing">
+        <div class="feauters-wrapper"> 
+        <article class="features-white housing">
           <h4>Жилье</h4>
           <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
         </article>
@@ -48,16 +53,19 @@
           <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
         </article>
         <article class="features-white souvenirs">
-        <div class="features-classic-pic"></div>
           <h4>Сувениры</h4>
           <p>Не только китайского, но и местного производства!</p>
         </article>
+      </div> 
         <article class="features-blue">
-          <img src="img/most.jpg" alt="Фотография моста" width="100" height="50"/>
+          <img src="img/most.jpg" alt="Фотография моста" width="800" height="256"/>
+          <div class="features-blue-text-bridge">
           <h3>Там есть мост дьявола</h3>
           <p>— №2 —</p>
           <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+        </div>
         </article>
+        <div class="feauters-wrapper"> 
         <article class="features-grey">
           <h3>Небольшая площадь</h3>
           <p>— №3 —</p>
@@ -73,7 +81,9 @@
           <p>— №5 —</p>
           <p>Большинство едет в Гранд Каньон и толпится там</p>
         </article>
+        </div>
       </section>
+      <div class="interesing-block">
       <section class="more-info">
         <p><strong>Заинтересовались?</strong></p>
         <p>Укажите предпологаемые даты поездки<br/>
@@ -97,8 +107,6 @@
             <button type="button">-</button>
             <input type="number" name="adults" min="1" step="1" value="2" id="quantity-adults" required>
             <button type="button">+</button>
-          </div>
-         <div class="quantity-field">
             <label for="quantity-children">Дети:</label>
             <button type="button">-</button>
             <input type="number" name="children" id="quantity-children" min="0" step="1" value="0">
@@ -107,6 +115,7 @@
          <button class="search-index" type="submit">Найти</button>
         </form>
       </section>
+    </div>
       <section class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52385.18050597228!2d-111.83015797418973!3d34.8543733810389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1580422479276!5m2!1sru!2sru" width="100%" height="475" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
       </section>
@@ -124,7 +133,7 @@
     </ul>
       </div>
       <div class="developer">
-        <p>Website by</p><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" alt="Логотип HTML academy"  width="100" height="50"/></a>
+        <span>Website by</span><a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" alt="Логотип HTML academy"  width="100" height="50"/></a>
       </div>
     </footer>
   </div>
