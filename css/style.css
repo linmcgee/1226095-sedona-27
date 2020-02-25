@@ -113,8 +113,8 @@ a {
     background-color: #ffffff;
     padding-top: 58px;
     padding-bottom: 67px;
-    padding-left: 73px;
-    padding-right: 73px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: center;
 }
 .features-white h4 {
@@ -216,14 +216,14 @@ a {
     background-position: 50% 60px;
 }
 .food {
-    background-image: url("../img/icons/icon-2.svg");
-    background-repeat: no-repeat;
-    background-position: 50% 60px;
-}
-.souvenirs {
     background-image: url("../img/icons/icon-3.svg");
     background-repeat: no-repeat;
-    background-position: 50% 60px;
+    background-position: 50% 62px;
+}
+.souvenirs {
+    background-image: url("../img/icons/icon-2.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 56px;
 }
 
 .list-hotels {
