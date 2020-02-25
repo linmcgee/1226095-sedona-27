@@ -35,27 +35,36 @@ body {
 a {
     text-decoration: none;
 }
+.header {
+    position: relative;
+}
+.header-logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 140px;
+    height: 72px;
+    margin-left: -70px;
+}
 .navigation {
     font-size: 16px;
     line-height: 20px;
     color: #000000;
 
     background-color: #ffffff;
-    
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 .site-navigation {
     list-style: none;
-    width: 620px;  
     margin: 0;
     padding: 0;
+    display: flex;
+    text-align: center;
 
 }
 .main-navigation-wrapper {
-  width: 100%;
-  margin-bottom: 60px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-top: 15px;
 }
 
 .main-navigation-wrapper .container {
@@ -73,6 +82,12 @@ a {
 }
 .site-navigation a:active {
     color: #b2b2b2;
+}
+.site-navigation li {
+    width: 20%;
+}
+.site-navigation li:nth-child(2) {
+    margin-right: 20%;
 }
 .basic-info {
     text-align: center;
@@ -199,8 +214,9 @@ a {
 }
 .developer {
     font-weight: bold;
-    text-align: right;
-    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -340,7 +356,10 @@ a {
 .date-field {
     text-align: left;
     margin-bottom: 39px;
-    padding-left: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 .date-field input {
     width: 346px;
