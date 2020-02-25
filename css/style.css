@@ -97,16 +97,16 @@ a {
     padding-top: 35px;
     padding-right: 60px;
     padding-left: 60px;
-    padding-bottom: 65px;
+    /*padding-bottom: 65px;*/
 }
 .features-blue-text-bridge {
     padding-top: 35px;
     padding-right: 48px;
     padding-left: 48px;
-    padding-bottom: 65px;
+    /*padding-bottom: 65px;*/
 }
-.features-bkue h3 {
-    padding-top: 50px;
+.features-blue h3 {
+    /*padding-top: 29px;*/
 }
 .features-white {
     width: 400px;
@@ -115,6 +115,7 @@ a {
     padding-bottom: 67px;
     padding-left: 50px;
     padding-right: 50px;
+    line-height: 21px;
     text-align: center;
 }
 .features-white h4 {
@@ -223,7 +224,7 @@ a {
 .souvenirs {
     background-image: url("../img/icons/icon-2.svg");
     background-repeat: no-repeat;
-    background-position: 50% 56px;
+    background-position: 50% 57px;
 }
 
 .list-hotels {
