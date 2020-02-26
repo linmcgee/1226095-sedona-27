@@ -23,8 +23,9 @@ body {
     margin: 0 auto;
 }
 .background-index {
-    background-image: url("../img/background-photo.jpg");
-    background-position: top center;
+    background-image: url("../img/polygon.png"), url("../img/background-photo.jpg");
+    min-height: 500px;
+    background-position: bottom,0% 23%;
     background-repeat: no-repeat;
     text-align: center;
 }
@@ -194,7 +195,7 @@ a {
 .footer {
     background-color: #ffffff;
     width: 1200px;
-    padding-bottom: 37px;
+    padding-bottom: 35px;
     display: flex;
     justify-content: space-between;
 }
@@ -213,13 +214,22 @@ a {
     list-style: none;
 }
 .developer {
-    font-weight: bold;
+    margin-top: 21px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 100px;
 }
-
-
+.htmlacademy-logo {
+    margin-left: 5px;
+    fill:#231f20;
+}
+.htmlacademy-logo:hover {
+    fill:#81b3d2;
+}
+.htmlacademy-logo:active {
+    fill:#bdbbbc;
+}
 .visually-hidden {
     position: absolute;
     clip: rect(0 0 0 0);
@@ -349,9 +359,7 @@ a {
     border: none;
 }
 .form-arrival {
-    margin-top: 55px;
-    width: 568px;
-    height: 395px;
+    padding: 55px;
 }
 .date-field {
     text-align: left;
@@ -367,9 +375,7 @@ a {
 }
 .quantity-field {
     text-align: left;
-    margin-bottom: 39px;    
-    width: 458px;
-    padding-left: 55px;
+    margin-bottom: 39px;
     display: flex;
     justify-content: space-between;
 }
