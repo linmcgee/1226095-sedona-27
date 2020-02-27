@@ -25,8 +25,8 @@
     <main>
         <section>
           <form class="filter-form" action="/" method="post">
-            <fieldset>
-        <legend>Инфраструктура</legend>
+            <fieldset class="section-form-structural">
+        <legend>Инфраструктура:</legend>
         <ul class="filter-list">
           <li>
            <input type="checkbox" name="pool" id="filter-pool" checked>
@@ -42,8 +42,8 @@
           </li>
         </ul>
           </fieldset>
-          <fieldset>
-        <legend>Тип жилья</legend>
+          <fieldset class="section-form-housing">
+        <legend>Тип жилья:</legend>
         <ul class="filter-list">
           <li>
           <input type="checkbox" name="hotel" id="filter-hotel" checked>
@@ -57,7 +57,7 @@
           <label for="filter-apartments">Апартаменты</label></li>
         </ul>
                </fieldset>
-            <fieldset>
+            <fieldset class="section-form-price">
             <legend>Стоимость в сутки(Р):</legend>
             <label for="filter-min-price">От</label>
             <input type="text" name="min-price" id="filter-min-price">
