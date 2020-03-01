@@ -363,6 +363,7 @@ a {
 }
 .rating {
     text-align: right;
+    margin-left: auto;
 }
 .rating-value {
     padding: 3px 17px;
@@ -380,11 +381,17 @@ a {
     display: flex;
     margin: 0;
     padding: 0;
+    list-style: none;
+    padding-bottom: 50px;
+    justify-content: flex-end;
 }
 .stars li {
     background-image: url("../img/icons/star.svg");
     background-repeat: no-repeat;
     background-position: right;
+    width: 18px;
+    height: 17px;
+    padding-right: 5px;
 }
 
 .detail {
