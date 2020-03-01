@@ -200,7 +200,7 @@ a {
     background-size: 100% 475px;
 }
 .footer {
-    background-color: #ffffff;
+    background-color:rgba(253,253,253,0.9);
     width: 1200px;
     padding-bottom: 35px;
     display: flex;
@@ -209,6 +209,7 @@ a {
 .contact-info {
     text-align: left;
     font-size: 21px;
+    color:#000000;
     font-weight: bold;
     padding-left: 125px;
 }
@@ -262,12 +263,30 @@ a {
 
 .list-hotels {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 .list-hotels a {
     text-decoration: none;
 }
+.result-hotels {
+    display: flex;
+    padding: 25px 72px;
+    border-bottom: 1px solid #e5e5e5;
+}
 .hotels-name {
     color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
+.info-hotels {
+    padding-left: 30px;
+}
+.info-hotels h3 {
+    margin:0;
+}
+.info-hotels p {
+    display: inline;
 }
 .hotels-name:hover {
     color: #81b3d2;
@@ -326,6 +345,22 @@ a {
     background-color: #ffffff;
     color: #000000;
 }
+.result-filter {
+    background: #fefefe;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    align-items: center;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.result-filter p {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 12px;
+    font-weight: bold;
+}
 .rating {
     text-align: right;
 }
@@ -335,7 +370,17 @@ a {
     font-size: 14px;
     background-color: #f2f2f2;
 }
-
+.kinds-hotels {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 17px;
+}
+.stars {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
 .stars li {
     background-image: url("../img/icons/star.svg");
     background-repeat: no-repeat;
@@ -430,6 +475,13 @@ a {
 
 .sort {
     list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.sort li {
+    padding-right: 30px;
+    font-size: 12px;
 }
 .sort a {
     border-bottom: 1px dotted #81b3d2;
@@ -446,6 +498,13 @@ a {
 .active a {
     border-bottom: none;
     color: #81b3d2;
+}
+.icon-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    padding-left: 450px;
 }
 .icon-filter {
     fill: #cacaca;
