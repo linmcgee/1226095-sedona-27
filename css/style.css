@@ -163,7 +163,7 @@ a {
     padding-right: 55px;
     padding-left: 55px;
 }
-.feauters-wrapper {
+.features-wrapper {
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -190,6 +190,8 @@ a {
     font-weight: bold;
     padding-top: 30px;
     padding-bottom: 30px;
+    margin-left: 315px;
+    margin-right: 315px;
     background-color: #766357;
     border: none;
     width: 568px;
