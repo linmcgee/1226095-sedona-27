@@ -156,6 +156,7 @@ a {
     padding-bottom: 50px;
     padding-left: 73px;
     padding-right: 73px;
+    box-sizing: border-box;
 }
 .features-grey h3 {
     font-weight: bold;
@@ -172,14 +173,10 @@ a {
 .interesing-block {
     padding-left: 315px;
     padding-right: 315px;
-    text-align: center;
-
-}
-.more-info {
-    text-align: center;
     margin-bottom: 50px;
+    text-align: center;
 }
-.more-info strong {
+.interesing-block strong {
     font-size: 30px;
 }
 .search-hotel {
@@ -190,8 +187,6 @@ a {
     font-weight: bold;
     padding-top: 30px;
     padding-bottom: 30px;
-    margin-left: 315px;
-    margin-right: 315px;
     background-color: #766357;
     border: none;
     width: 568px;
