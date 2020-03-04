@@ -214,8 +214,38 @@ a {
     font-weight: bold;
     color: #000000;
 }
+.footer-social {
+    width: 155px;
+    padding-top: 30px;
+    position: absolute;
+    left: 50%;
+    margin-left: -77px;
+}
 .social-network {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 141px;
+    margin: 0 auto;
+    padding: 0;
     list-style: none;
+}
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43px;
+    height: 43px;
+    background-color: #81b3d2;
+    fill:#ffffff;
+}
+.social-button:hover {
+    background-color: #669ec0;
+    fill:#ffffff;
+}
+.social-button:active {
+    background-color: #5496bd;
+    fill:#88b6d1;
 }
 .developer {
     margin-top: 21px;
