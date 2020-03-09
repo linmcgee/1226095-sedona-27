@@ -327,26 +327,64 @@ a {
     background-position: top center;
     background-repeat: no-repeat;
     padding-top: 30px;
-    padding-bottom: 30px;
     line-height: 30px;
     display: flex;
 }
 .section-form-structural {
     text-align: left;
-    width: 220px;
-    padding-left: 70px;
+    width: 240px;
+    padding-left: 65px;
 }
 .section-form-housing {
-    padding-left: 15px;
-    width: 290px;
+    padding-left: 10px;
+    width: 277px;
 }
 .section-form-price {
     padding-left: 210px;
-    padding-right: 70px;
+    padding-right: 72px;
 }
+.price-controls {
+    height: 36px;
+    margin-bottom: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    font-size: 0;
+    position: relative;
+    width: 310px;
+}
+.price-controls::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2px;
+    height: 22px;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+}
+.price-controls label {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 38px;
+    vertical-align: top;
+    cursor: pointer;
+}
+.price-controls input {
+    width: 50px;
+    margin: 0;
+    color: inherit;
+    font: inherit;
+    background: none;
+    border: none;
+}
+.min-price, .max-price {
+    padding-left: 75px;
+}
+
 .filter-form legend {
     font-weight: bold;
     font-size: 16px;
+    margin-top: 0px;
 }
 .filter-form fieldset {
     border:0 none;
@@ -355,21 +393,55 @@ a {
     list-style: none;
     padding: 0px;
 }
+.filter-form li {
+    margin-bottom: 20px;
+}
+
 .filter-form button {
-    font-family: "PT Sans", Arial, sans-serif;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 21px;
-    color: white;
-    border-radius: 3px;
-    border: 2px solid white;
-    outline: none;
-    background: none;
-    padding: 5px 40px;
+  display: block;
+  margin: 0 auto;
+  padding: 6px 35px;
+
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  cursor: pointer;
 }
 .filter-form button:hover {
     background-color: #ffffff;
     color: #000000;
+}
+.filter-form input[type="checkbox"] {
+    display: none;
+}
+.filter-form input[type="checkbox"] + label {
+    display: block;
+    padding-left: 40px;
+    position: relative;
+    cursor: pointer;
+}
+.filter-form input[type="checkbox"] + label::before {
+    content: url(../img/icons/checkbox-off.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    font-size: 26px;
+}
+.filter-form input[type="checkbox"]:checked + label::before {
+    content: url(../img/icons/checkbox-on.svg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    font-size: 26px;
 }
 .result-filter {
     background: #fefefe;
@@ -377,7 +449,6 @@ a {
     display: flex;
     align-items: center;
     padding-left: 72px;
-    padding-right: 72px;
     padding-top: 18px;
     padding-bottom: 18px;
 }
@@ -537,10 +608,11 @@ a {
     padding: 0;
     margin: 0;
     display: flex;
-    padding-left: 450px;
+    padding-left: 475px;
 }
 .icon-filter {
     fill: #cacaca;
+    margin-left: 10px;
 }
 .icon-filter:hover {
     fill: #272324;

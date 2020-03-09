@@ -29,7 +29,7 @@
         <legend>Инфраструктура:</legend>
         <ul class="filter-list">
           <li>
-           <input type="checkbox" name="pool" id="filter-pool" checked>
+           <input class="filter-input-checkbox" type="checkbox" name="pool" id="filter-pool" checked>
            <label for="filter-pool">Бассейн</label>
             </li>
           <li>
@@ -59,14 +59,16 @@
                </fieldset>
             <fieldset class="section-form-price">
             <legend>Стоимость в сутки(Р):</legend>
-            <label for="filter-min-price">От</label>
-            <input type="text" name="min-price" id="filter-min-price">
-            <label for="filter-max-price">До</label>
-            <input type="text" name="max-price" id="filter-max-price">      
-          <div class="range-outer-bar"> 
-            <div class="range-inner-bar"> 
-            <div class="min-value-runner"></div> 
-            <div class="max-value-runner"></div> 
+              <div class="price-controls">
+                <label class="min-price" for="filter-min-price">От</label>
+                <input type="text" name="min-price" value ="0" id="filter-min-price">
+                <label class="max-price" for="filter-max-price">До</label>
+                <input type="text" name="max-price" value="3000" id="filter-max-price">
+              </div>      
+            <div class="range-outer-bar"> 
+              <div class="range-inner-bar"> 
+                <div class="min-value-runner"></div> 
+                <div class="max-value-runner"></div> 
             </div> 
           </div>
           <button type="submit">Показать</button>
@@ -89,7 +91,7 @@
                  </a>
                 </li>
               <li>
-                <a class="icon-filter-active" href="">
+                <a class="icon-filter icon-filter-active" href="">
                   <span class="visually-hidden">по убыванию</span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10"><path d="M5.5 10L0 0h11"/></svg>
                 </a>
