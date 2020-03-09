@@ -340,17 +340,17 @@ a {
     width: 277px;
 }
 .section-form-price {
-    padding-left: 210px;
+    padding-left: 200px;
     padding-right: 72px;
+    width: 327px;
 }
 .price-controls {
     height: 36px;
     margin-bottom: 20px;
     border: 2px solid #ffffff;
     border-radius: 2px;
-    font-size: 0;
     position: relative;
-    width: 310px;
+    margin-left: 10px;
 }
 .price-controls::after {
     content: "";
@@ -377,9 +377,12 @@ a {
     background: none;
     border: none;
 }
-.min-price, .max-price {
-    padding-left: 75px;
+.price-controls .min-price,
+.price-controls .max-price {
+  /*width: 90px;*/
+  padding-left: 65px;
 }
+
 
 .filter-form legend {
     font-weight: bold;
