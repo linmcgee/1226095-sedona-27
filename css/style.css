@@ -91,14 +91,20 @@ a {
     margin-right: 20%;
 }
 .basic-info {
+    width: 1200px;
+    padding: 50px 0;
     text-align: center;
-    margin-top: 60px;
 }
-
+.basic-info h1 {
+    color: #000000;
+    font-family: "PT Sans", sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 26px;
+}
 .features {
     text-align: center;
     margin-bottom: 55px;
-    margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -128,9 +134,6 @@ a {
     padding-right: 48px;
     padding-left: 48px;
     /*padding-bottom: 65px;*/
-}
-.features-blue h3 {
-    /*padding-top: 29px;*/
 }
 .features-white {
     width: 400px;
