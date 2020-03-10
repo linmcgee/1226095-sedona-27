@@ -379,11 +379,43 @@ a {
 }
 .price-controls .min-price,
 .price-controls .max-price {
-  /*width: 90px;*/
-  padding-left: 65px;
+    /*width: 90px;*/
+    padding-left: 65px;
+}
+.range-outer-bar {
+    position: relative;
+    background: rgba(255, 255, 255, 0.3);
+    margin-bottom: 32px;      
+    margin-left: 10px;
+    height: 2px;
+}
+.range-outer-bar .range-inner-bar {
+    width: 80%;
+    height: 2px;
+    background: #ffffff;
+}
+.min-value-runner, .max-value-runner{
+    position: absolute;
+    top: -9px;
+    width: 4px;
+    height: 4px;
+
+    background: #ababab;
+    border: 8px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+    cursor: pointer;
+}
+.min-value-runner {
+    left: 0;
 }
 
-
+.max-value-runner {
+    left: 80%;
+}
+.max-value-runner:hover, .min-value-runner:hover {
+    background: #1c4f80;
+}
 .filter-form legend {
     font-weight: bold;
     font-size: 16px;
