@@ -585,7 +585,7 @@ a {
     position: relative;
 }
 .date-field input {
-    width: 346px;
+    width: 334px;;
     height: 38px;
 }
 .quantity-field {
@@ -593,6 +593,7 @@ a {
     margin-bottom: 39px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .quantity-field input {
     width: 38px;
@@ -608,6 +609,7 @@ a {
     outline: none;
     border: none;
     color: #000000;
+    padding: 0px;
 }
 .form-arrival input:hover {
     background-color: #ebebeb;
@@ -662,4 +664,46 @@ a {
 }
 .icon-filter-active {
     fill: #81b3d2;
+}
+.icon-calendar {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    position: absolute;
+    left: 94%;
+    fill: #a9a9a9;
+}
+.icon-calendar:hover {
+    fill:#000000;
+}
+.icon-calendar:active {
+    fill:#81b3d2;
+}
+.adult {
+    flex-wrap: wrap;
+}
+.btn-minus {
+    float: left;
+    width: 38px;
+    height: 38px;
+    border: none;
+    color: #a9a9a9;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;
+}
+.btn-plus {
+    float: right;
+    width: 38px;
+    height: 38px;
+    border: none;
+    color: #a9a9a9;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 700;    
+}
+.form-arrival input[name="arrival-date"], .form-arrival input[name="departure-date"] {
+    padding-left: 12px;
 }
