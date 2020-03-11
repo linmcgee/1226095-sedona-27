@@ -704,6 +704,12 @@ a {
     line-height: 26px;
     font-weight: 700;    
 }
+.btn-plus:hover, .btn-minus:hover {
+    color:#000000;
+}
+.btn-plus:active, .btn-minus:active {
+    color:#81b3d2;
+}
 .form-arrival input[name="arrival-date"], .form-arrival input[name="departure-date"] {
     padding-left: 12px;
 }
