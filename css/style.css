@@ -23,7 +23,7 @@ body {
     margin: 0 auto;
 }
 .background-index {
-    background-image: url("../img/polygons.png"), url("../img/background-photo.jpg");
+    background-image: url("../img/polygon.png"), url("../img/background-photo.jpg");
     min-height: 500px;
     background-position: bottom,0% 23%;
     background-repeat: no-repeat;
