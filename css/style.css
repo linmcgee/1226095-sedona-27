@@ -486,6 +486,17 @@ a {
     height: 23px;
     font-size: 26px;
 }
+/*.filter-form input[type="checkbox"] + label:focus::before {
+    background-image: url(../img/icons/checkbox-on.svg);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 27px;
+    height: 23px;
+    font-size: 26px;
+    border:solid 1px #4D90FE;
+}*/
 .result-filter {
     background: #fefefe;
     border-bottom: 1px solid #e5e5e5;
@@ -684,6 +695,10 @@ a {
 }
 .icon-calendar svg:active {
     fill:#81b3d2;
+}
+.icon-calendar:focus {
+    outline: none;
+    border:solid 1px #4D90FE;
 }
 .adult {
     display: flex;
