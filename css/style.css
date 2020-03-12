@@ -222,7 +222,6 @@ a {
 .footer-social {
     width: 155px;
     padding-top: 30px;
-    position: absolute;
     left: 50%;
     margin-left: -77px;
 }
@@ -466,21 +465,23 @@ a {
     cursor: pointer;
 }
 .filter-form input[type="checkbox"] + label::before {
-    content: url(../img/icons/checkbox-off.svg);
+    background-image: url(../img/icons/checkbox-off.svg);
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
-    width: 10px;
-    height: 10px;
+    width: 23px;
+    height: 23px;
     font-size: 26px;
 }
 .filter-form input[type="checkbox"]:checked + label::before {
-    content: url(../img/icons/checkbox-on.svg);
+    background-image: url(../img/icons/checkbox-on.svg);
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
-    width: 10px;
-    height: 10px;
+    width: 27px;
+    height: 23px;
     font-size: 26px;
 }
 .result-filter {
@@ -609,7 +610,6 @@ a {
     outline: none;
     border: none;
     color: #000000;
-    padding: 0px;
 }
 .form-arrival input:hover {
     background-color: #ebebeb;
@@ -673,19 +673,21 @@ a {
     background-color: transparent;
     position: absolute;
     left: 94%;
+}
+.icon-calendar svg {
     fill: #a9a9a9;
 }
-.icon-calendar:hover {
+.icon-calendar svg:hover {
     fill:#000000;
 }
-.icon-calendar:active {
+.icon-calendar svg:active {
     fill:#81b3d2;
 }
 .adult {
+    display: flex;
     flex-wrap: wrap;
 }
 .btn-minus {
-    float: left;
     width: 38px;
     height: 38px;
     border: none;
@@ -695,7 +697,6 @@ a {
     font-weight: 700;
 }
 .btn-plus {
-    float: right;
     width: 38px;
     height: 38px;
     border: none;
@@ -710,6 +711,9 @@ a {
 .btn-plus:active, .btn-minus:active {
     color:#81b3d2;
 }
-.form-arrival input[name="arrival-date"], .form-arrival input[name="departure-date"] {
+.date-travel {
     padding-left: 12px;
+}
+.quantity-inp {
+    padding:0;
 }
