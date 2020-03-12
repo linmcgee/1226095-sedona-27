@@ -102,6 +102,7 @@ a {
     font-weight: bold;
     line-height: 26px;
     margin: 0 auto;
+    width: 600px;
 }
 .features {
     text-align: center;
