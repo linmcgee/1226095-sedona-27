@@ -179,8 +179,11 @@ a {
 .interesing-block {
     padding-left: 315px;
     padding-right: 315px;
-    margin-bottom: 50px;
     text-align: center;
+}
+.interesing-block p {
+    margin-bottom: 48px;
+    line-height: 24px;
 }
 .interesing-block strong {
     font-size: 30px;
@@ -222,16 +225,14 @@ a {
     color: #000000;
 }
 .footer-social {
-    width: 155px;
+    width: 150px;
     padding-top: 30px;
-    left: 50%;
-    margin-left: -77px;
 }
 .social-network {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 141px;
+    width: 150px;
     margin: 0 auto;
     padding: 0;
     list-style: none;
@@ -240,18 +241,24 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 43px;
-    height: 43px;
+    width: 46px;
+    height: 48px;
     background-color: #81b3d2;
+}
+.social-network-pic {
     fill:#ffffff;
+}
+.social-network-pic:hover {
+    fill:#ffffff;
+}
+.social-network-pic:active {
+    fill:#88b6d1;
 }
 .social-button:hover {
     background-color: #669ec0;
-    fill:#ffffff;
 }
 .social-button:active {
     background-color: #5496bd;
-    fill:#88b6d1;
 }
 .developer {
     margin-top: 21px;
@@ -482,7 +489,7 @@ a {
     height: 23px;
     font-size: 26px;
 }
-.filter-form input[type=checkbox].visually-hidden:focus+label::before {
+.filter-form input[type=checkbox]:focus+label::before {
     outline:auto 2px #4D90FE;
 }
 .result-filter {
@@ -565,8 +572,7 @@ a {
     font: inherit;
     text-align: center;
     color: #ffffff;
-    text-transform: 
-    uppercase;
+    text-transform: uppercase;
     font-size: 21px;
     font-weight: bold;
     padding-top: 21px;
@@ -575,8 +581,20 @@ a {
     background-color: #81b3d2;
     border: none;
 }
+.search-index:hover {
+    background-color: #669ec0;
+}
+.search-index:active {
+    background-color: #5496bd;
+    color:#76abca;
+}
 .form-arrival {
     padding: 55px;
+    position: absolute;    
+    left: 50%;
+    margin-left: -284px;
+    background: #ffffff;
+    color: #000000;
 }
 .date-field {
     text-align: left;
@@ -611,6 +629,10 @@ a {
     outline: none;
     border: none;
     color: #000000;
+    text-transform: uppercase;
+}
+.quantity-field input {
+    text-align: center;
 }
 .form-arrival input:hover {
     background-color: #ebebeb;
