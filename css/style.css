@@ -202,15 +202,19 @@ a {
 }
 .map {
     background-image: url("../img/map.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 475px;
+    background-repeat: no-repeat
+    background-size: 100% 748px;
 }
 .footer {
-    background-color:rgba(253,253,253,0.9);
     width: 1200px;
     padding-bottom: 35px;
     display: flex;
-    justify-content: space-between;
+}
+.footer-index { 
+    position: absolute;
+    margin-top: -120px;
+    background-color:rgba(253,253,253,0.9);
+
 }
 .contact-info {
     text-align: left;
@@ -227,6 +231,8 @@ a {
 .footer-social {
     width: 150px;
     padding-top: 30px;
+    padding-left: 175px;
+    padding-right: 225px;
 }
 .social-network {
     display: flex;
@@ -595,6 +601,7 @@ a {
     margin-left: -284px;
     background: #ffffff;
     color: #000000;
+    box-shadow: 0px 0px 15px 7px rgba(0, 1, 1, 0.15);
 }
 .date-field {
     text-align: left;
