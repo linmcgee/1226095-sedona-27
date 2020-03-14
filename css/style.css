@@ -25,7 +25,7 @@ body {
 .background-index {
     background-image: url("../img/polygon.png"), url("../img/background-photo.jpg");
     min-height: 500px;
-    background-position: bottom,0% 23%;
+    background-position: bottom,0% 21%;
     background-repeat: no-repeat;
     text-align: center;
 }
@@ -155,8 +155,10 @@ a {
     width: 151px;
     margin-top: 21px;
     margin-right: auto;
-    margin-bottom: 21px;
     margin-left: auto;
+}
+.features-blue-text-bridge p {
+    margin-bottom: 21px;
 }
 .features-white {
     width: 400px;
