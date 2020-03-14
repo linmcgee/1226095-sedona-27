@@ -30,8 +30,8 @@ body {
     text-align: center;
 }
 .intro-welcome {
-    margin-top: 75px;
-    margin-bottom: 75px;
+    margin-top: 76px;
+    margin-bottom: 73px;
 }
 a {
     text-decoration: none;
@@ -64,7 +64,7 @@ a {
 }
 .main-navigation-wrapper {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 21px;
     padding-top: 15px;
 }
 
@@ -92,7 +92,8 @@ a {
 }
 .basic-info {
     width: 1200px;
-    padding: 50px 0;
+    padding-top: 60px;
+    padding-bottom: 53px;
     text-align: center;
 }
 .basic-info h1 {
@@ -103,6 +104,10 @@ a {
     line-height: 26px;
     margin: 0 auto;
     width: 600px;
+}
+.basic-info p {
+    margin-bottom: 0;
+    margin-top: 30px;
 }
 .features {
     text-align: center;
@@ -118,6 +123,7 @@ a {
 .features h3 {
     font-size: 21px;
     font-weight: bold;
+    margin-bottom: 24px;
 }
 .features-blue {
     min-height: 256px;
@@ -126,32 +132,49 @@ a {
     width: 100%;
 }
 .features-blue-text-city {
-    padding-top: 35px;
+    padding-top: 26px;
     padding-right: 60px;
     padding-left: 60px;
-    /*padding-bottom: 65px;*/
+}
+.features-blue-text-city h3 {
+    width: 150px;
+    margin-top: 21px;
+    margin-right: auto;
+    margin-bottom: 24px;
+    margin-left: auto;
+}
+.features-blue-text-city p {
+    margin-bottom: 21px;
 }
 .features-blue-text-bridge {
-    padding-top: 35px;
-    padding-right: 48px;
-    padding-left: 48px;
-    /*padding-bottom: 65px;*/
+    padding-top: 25px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.features-blue-text-bridge h3 {
+    width: 151px;
+    margin-top: 21px;
+    margin-right: auto;
+    margin-bottom: 21px;
+    margin-left: auto;
 }
 .features-white {
     width: 400px;
     background-color: #ffffff;
-    padding-top: 58px;
-    padding-bottom: 67px;
+    padding-top: 55px;
+    padding-bottom: 68px;
     padding-left: 50px;
     padding-right: 50px;
-    line-height: 21px;
     text-align: center;
 }
 .features-white h4 {
-    padding-top: 75px;
-    margin-bottom: 20px;
+    padding-top: 78px;
+    margin-bottom: 19px;
     font-weight: bold;
     font-size: 21px;
+}
+.features-white p {
+    padding-top: 5px;
 }
 .features-grey {
     background-color: #eeeeee;
