@@ -222,6 +222,7 @@ a {
     color:#000000;
     font-weight: bold;
     padding-left: 125px;
+    width: 275px;
 }
 .footer a {
     text-decoration: none;
@@ -229,10 +230,8 @@ a {
     color: #000000;
 }
 .footer-social {
-    width: 150px;
-    padding-top: 30px;
-    padding-left: 175px;
-    padding-right: 225px;
+    width: 400px;
+    margin-top: 30px;
 }
 .social-network {
     display: flex;
@@ -251,13 +250,13 @@ a {
     height: 48px;
     background-color: #81b3d2;
 }
-.social-network-pic {
+.social-button svg {
     fill:#ffffff;
 }
-.social-network-pic:hover {
+.social-button:hover svg{
     fill:#ffffff;
 }
-.social-network-pic:active {
+.social-button:active svg {
     fill:#88b6d1;
 }
 .social-button:hover {
@@ -271,7 +270,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 100px;
+    width: 400px;
 }
 .htmlacademy-logo {
     margin-left: 5px;
