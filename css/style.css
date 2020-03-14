@@ -253,7 +253,7 @@ a {
 .social-button svg {
     fill:#ffffff;
 }
-.social-button:hover svg{
+.social-button:hover svg {
     fill:#ffffff;
 }
 .social-button:active svg {
@@ -274,12 +274,14 @@ a {
 }
 .htmlacademy-logo {
     margin-left: 5px;
-    fill:#231f20;
 }
-.htmlacademy-logo:hover {
+.htmlacademy-logo svg {
+    fill:#231f20;    
+}
+.htmlacademy-logo:hover svg {
     fill:#81b3d2;
 }
-.htmlacademy-logo:active {
+.htmlacademy-logo:active svg {
     fill:#bdbbbc;
 }
 .visually-hidden {
@@ -682,16 +684,18 @@ a {
     padding-left: 475px;
 }
 .icon-filter {
-    fill: #cacaca;
     margin-left: 10px;
 }
-.icon-filter:hover {
+.icon-filter svg {
+    fill: #cacaca;
+}
+.icon-filter:hover svg {
     fill: #272324;
 }
-.icon-filter:active {
+.icon-filter:active svg {
     fill: #81b3d2;
 }
-.icon-filter-active {
+.icon-filter-active svg {
     fill: #81b3d2;
 }
 .icon-calendar {
