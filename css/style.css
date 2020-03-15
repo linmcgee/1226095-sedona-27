@@ -30,7 +30,7 @@ body {
     text-align: center;
 }
 .intro-welcome {
-    margin-top: 76px;
+    margin-top: 75px;
     margin-bottom: 74px;
 }
 a {
@@ -85,10 +85,17 @@ a {
     color: #b2b2b2;
 }
 .site-navigation li {
+    box-sizing: border-box;
     width: 20%;
 }
 .site-navigation li:nth-child(2) {
     margin-right: 20%;
+}
+.site-navigation li:nth-child(3) {
+    padding-left: 5px;
+}
+.site-navigation li:nth-child(4) {
+    padding-left: 15px;
 }
 .basic-info {
     width: 1200px;
@@ -183,10 +190,10 @@ a {
     font-size: 14px;
     text-align: center;
     width: 400px;
-    padding-top: 48px;
-    padding-bottom: 50px;
-    padding-left: 73px;
-    padding-right: 73px;
+    padding-top: 47px;
+    padding-bottom: 40px;
+    padding-left: 65px;
+    padding-right: 65px;
     box-sizing: border-box;
 }
 .features-grey h3 {
@@ -196,6 +203,10 @@ a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
+    margin-bottom: 25px;
+}
+.features-grey p {
+    margin-bottom: 20px;
 }
 .features-wrapper {
     text-align: center;
@@ -206,13 +217,15 @@ a {
     padding-left: 315px;
     padding-right: 315px;
     text-align: center;
-    padding-top: 39px;
+    padding-top: 56px;
 }
 .interesing-block p {
-    margin-bottom: 48px;
+    margin-bottom: 47px;
+    margin-top: 25px;
     line-height: 24px;
 }
-.interesing-block strong {
+.interesing-block h4 {
+    margin: 0;
     font-size: 30px;
 }
 .search-hotel {
