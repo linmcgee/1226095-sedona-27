@@ -661,7 +661,7 @@ a {
     margin-top: 29px;
     margin-bottom: 53px;
     display: flex;
-    justify-content: space-between;
+    box-sizing: border-box;
     align-items: center;
 }
 .quantity-field input {
@@ -782,6 +782,15 @@ a {
     font-size: 14px;
     line-height: 26px;
     font-weight: 700;    
+}
+.quantity-field button[name="minus-adult"] {
+    margin-left: 40px;
+}
+.quantity-field button[name="plus-adult"] {
+    margin-right: 54px;
+}
+.quantity-field button[name="minus-child"] {
+    margin-left: 27px;
 }
 .btn-plus:hover, .btn-minus:hover {
     color:#000000;
