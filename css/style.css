@@ -363,7 +363,11 @@ a {
 }
 .result-hotels {
     display: flex;
-    padding: 25px 72px;
+    padding-top: 27px;
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 27px;
+    box-sizing: border-box;
     border-bottom: 1px solid #e5e5e5;
 }
 .hotels-name {
@@ -378,7 +382,8 @@ a {
     margin:0;
 }
 .info-hotels p {
-    display: inline;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 .hotels-name:hover {
     color: #81b3d2;
@@ -506,8 +511,7 @@ a {
 .filter-form button {
     margin-left: 85px;
     display: block;
-    margin: 0 auto;
-    padding: 6px 35px;
+    padding: 6px 34px;
 
     font-size: 14px;
     line-height: 20px;
@@ -572,7 +576,10 @@ a {
     margin-left: auto;
 }
 .rating-value {
-    padding: 3px 17px;
+    padding-top: 6px;
+    padding-bottom: 3px;
+    padding-right: 14px;
+    padding-left: 14px;
     color: #797979;
     font-size: 14px;
     background-color: #f2f2f2;
@@ -602,11 +609,12 @@ a {
 }
 
 .detail {
-    padding: 3px 17px;
+    padding: 5px 17px;
     color: #ffffff;
     background-color: #81b3d2;
     font-size: 14px;
     font-weight: bold;
+    margin-right: 2px;
 }
 .detail:hover {
     background-color: #669ec0;
@@ -616,7 +624,7 @@ a {
     color: #76abca;
 }
 .reservation {
-    padding: 3px 17px;
+    padding: 5px 17px;
     color: #ffffff;
     background-color: #766357;
     font-size: 14px;
