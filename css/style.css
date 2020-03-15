@@ -221,7 +221,7 @@ a {
 }
 .interesing-block p {
     margin-bottom: 47px;
-    margin-top: 25px;
+    margin-top: 32px;
     line-height: 24px;
 }
 .interesing-block h4 {
@@ -622,8 +622,8 @@ a {
     text-transform: uppercase;
     font-size: 21px;
     font-weight: bold;
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding-top: 19px;
+    padding-bottom: 18px;
     width: 458px;
     background-color: #81b3d2;
     border: none;
@@ -658,7 +658,8 @@ a {
 }
 .quantity-field {
     text-align: left;
-    margin-bottom: 55px;
+    margin-top: 29px;
+    margin-bottom: 53px;
     display: flex;
     justify-content: space-between;
     align-items: center;
