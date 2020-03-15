@@ -31,7 +31,7 @@ body {
 }
 .intro-welcome {
     margin-top: 76px;
-    margin-bottom: 73px;
+    margin-bottom: 74px;
 }
 a {
     text-decoration: none;
@@ -49,7 +49,7 @@ a {
 }
 .navigation {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 26px;
     color: #000000;
 
     background-color: #ffffff;
@@ -64,7 +64,7 @@ a {
 }
 .main-navigation-wrapper {
     width: 100%;
-    margin-bottom: 21px;
+    margin-bottom: 15px;
     padding-top: 15px;
 }
 
