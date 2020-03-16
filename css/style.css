@@ -13,7 +13,6 @@ body {
     font-weight: normal;
     color: #333333;
     text-transform: uppercase;
-    
     background-color: #f2f2f2;
 }
 .container {
@@ -51,7 +50,6 @@ a {
     font-size: 14px;
     line-height: 26px;
     color: #000000;
-
     background-color: #ffffff;
 }
 .site-navigation {
@@ -60,7 +58,6 @@ a {
     padding: 0;
     display: flex;
     text-align: center;
-
 }
 .main-navigation-wrapper {
     width: 100%;
@@ -69,8 +66,8 @@ a {
 }
 
 .main-navigation-wrapper .container {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .site-navigation a {
@@ -105,7 +102,7 @@ a {
 }
 .basic-info h1 {
     color: #000000;
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans", Arial, sans-serif;
     font-size: 21px;
     font-weight: bold;
     line-height: 26px;
@@ -244,8 +241,12 @@ a {
 }
 .map {
     background-image: url("../img/map.jpg");
-    background-repeat: no-repeat
-    /*background-size:100% 600px;*/
+    background-repeat: no-repeat;
+}
+.map iframe {
+    width: 100%;
+    height: 587px;
+    border: 0;
 }
 .footer {
     width: 1200px;
@@ -392,7 +393,7 @@ a {
     padding-left: 30px;
 }
 .info-hotels h3 {
-    margin:0;
+    margin: 0;
 }
 .info-hotels p {
     margin-top: 10px;
@@ -488,7 +489,6 @@ a {
     top: -9px;
     width: 4px;
     height: 4px;
-
     background: #ababab;
     border: 8px solid #ffffff;
     border-radius: 50%;
@@ -498,7 +498,6 @@ a {
 .min-value-runner {
     left: 0;
 }
-
 .max-value-runner {
     left: 80%;
 }
@@ -512,7 +511,7 @@ a {
     padding-top: 0;;
 }
 .filter-form fieldset {
-    border:0 none;
+    border: 0 none;
 }
 .filter-list {
     list-style: none;
@@ -522,17 +521,14 @@ a {
 .filter-form li {
     margin-bottom: 15px;
 }
-
 .filter-form button {
     margin-left: 85px;
     display: block;
     padding: 6px 34px;
-
     font-size: 14px;
     line-height: 20px;
     color: #ffffff;
     text-transform: uppercase;
-
     background: transparent;
     border: 2px solid #ffffff;
     border-radius: 2px;
@@ -727,7 +723,6 @@ a {
     background-color: #ffffff;
     border: 1px solid #e5e5e5;
 }
-
 .sort {
     list-style: none;
     padding: 0;
@@ -841,5 +836,5 @@ a {
     padding-left: 12px;
 }
 .quantity-inp {
-    padding:0;
+    padding: 0;
 }
