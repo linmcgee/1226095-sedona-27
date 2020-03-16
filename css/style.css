@@ -276,7 +276,7 @@ a {
     margin-top: 29px;
     width: 272px;
 }
-.contact-info-index, .contact-info-catalog p {
+.contact-info-index p, .contact-info-catalog p {
     margin-top: 0px;
     margin-bottom: 10px;
 }
