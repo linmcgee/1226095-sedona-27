@@ -455,7 +455,6 @@ a {
 .price-controls label {
     display: inline-block;
     font-size: 14px;
-    line-height: 38px;
     vertical-align: top;
     cursor: pointer;
 }
