@@ -261,8 +261,8 @@ a {
     font-size: 21px;
     color:#000000;
     font-weight: bold;
-    padding-left: 125px;
-    margin-top: 27px;
+    padding-left: 128px;
+    margin-top: 29px;
     width: 275px;
 }
 .contact-info p {
@@ -317,9 +317,11 @@ a {
     justify-content: center;
     width: 400px;
 }
+.developer span {
+    padding-right: 7px;
+}
 .htmlacademy-logo {
-    margin-left: 8px;
-    margin-top: 4px;
+    margin-top: 5px;
 }
 .htmlacademy-logo svg {
     fill:#231f20;    
@@ -397,7 +399,7 @@ a {
     background-image: url(../img/filter-background.jpg);
     background-position: top center;
     background-repeat: no-repeat;
-    padding-top: 22px;
+    padding-top: 24px;
     padding-bottom: 15px;
     line-height: 30px;
     display: flex;
@@ -453,9 +455,11 @@ a {
     background: none;
     border: none;
 }
-.price-controls .min-price,
-.price-controls .max-price {
+.price-controls .min-price {
     padding-left: 65px;
+}
+.price-controls .max-price {
+    padding-left: 73px;
 }
 .range-outer-bar {
     position: relative;
