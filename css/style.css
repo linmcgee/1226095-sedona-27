@@ -399,6 +399,7 @@ a {
 }
 .info-hotels {
     padding-left: 30px;
+    width: 780px;
 }
 .info-hotels h3 {
     margin: 0;
@@ -592,6 +593,18 @@ a {
 .rating {
     text-align: right;
     margin-left: auto;
+    padding-bottom: 55px;
+}
+.rating-full {
+    text-align: right;
+}
+.rating span::before {
+    content: "";
+    background-image: url("../img/icons/star.svg");
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 17px;
+    padding-right: 21px; 
 }
 .rating-value {
     padding-top: 6px;
