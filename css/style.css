@@ -593,7 +593,8 @@ a {
 .rating {
     text-align: right;
     margin-left: auto;
-    padding-bottom: 55px;
+    padding-bottom: 47px;
+    padding-top: 2px;
 }
 .rating-full {
     text-align: right;
@@ -638,7 +639,6 @@ a {
     padding-top: 4px;
     padding-right: 6px;
 }
-
 .detail {
     padding: 5px 17px;
     color: #ffffff;
