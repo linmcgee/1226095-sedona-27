@@ -80,18 +80,21 @@ a {
 }
 .site-navigation li:nth-child(1) {
     text-align: left;
+    padding-left: 70px;
 }
 .site-navigation li:nth-child(2) {
     text-align: left;
     margin-right: 20%;
+    padding-left: 72px;
 }
 .site-navigation li:nth-child(3) {
     text-align: right;
     padding-left: 5px;
+    padding-right: 75px;
 }
 .site-navigation li:nth-child(4) {
     text-align: right;
-    padding-left: 15px;
+    padding-right: 72px;
 }
 .basic-info {
     width: 1200px;
