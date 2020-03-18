@@ -696,6 +696,45 @@ a {
     color: #000000;
     box-shadow: 0px 0px 15px 7px rgba(0, 1, 1, 0.15);
 }
+@keyframes ascent {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.form-arrival-invisible {
+    display: none;
+}
+.form-arrival-visible {
+    display: block;
+    animation: ascent 0.7s;
+}
+@keyframes shake {
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(10px);
+    }
+}
+.form-error {
+    animation: shake 0.7s;
+}
 .date-field {
     text-align: left;
     margin-bottom: 27px;
