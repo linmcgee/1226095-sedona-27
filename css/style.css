@@ -223,6 +223,7 @@ a {
     padding-right: 315px;
     text-align: center;
     padding-top: 57px;
+    position: relative;
 }
 .interesing-block p {
     margin-bottom: 47px;
@@ -744,7 +745,7 @@ a {
     position: relative;
 }
 .date-field input {
-    width: 332px;;
+    width: 304px;;
     height: 36px;
 }
 .quantity-field {
@@ -894,6 +895,7 @@ a {
 }
 .date-travel {
     padding-left: 12px;
+    padding-right: 28px;
 }
 .quantity-inp {
     padding: 0;

@@ -5,10 +5,6 @@ var arrivalDate = form.querySelector("[name=arrival-date]");
 var quantityAdults = form.querySelector("[name=adults]");
 var quantityChildren = form.querySelector("[name=children]");
 
-var counts = get_count();
-quantityAdults.value = counts.adults_count ? counts.adults_count : 0;
-quantityChildren.value = counts.child_count ? counts.child_count : 0;
-
 buttonSearchHotel.onclick = function(evt) {
 	form.classList.toggle("form-arrival-invisible");
 	form.classList.toggle("form-arrival-visible");
@@ -34,23 +30,3 @@ form.onsubmit = function (evt) {
 	}
 };
 
-function set_count(childs_count, adults_count){
-	localStorage.setItem('childs_count', childs_count);
-	localStorage.setItem('adults_count', adults_count)
-}
-
-function get_count(){
-	let child_count, adults_count;	
-  	try {
-	    child_count = localStorage.getItem("childs_count");
-	    adults_count = localStorage.getItem('adults_count');
-  	} catch (err) {
-  		console.error(err);
-  		return
-	}
-    
-  	return {
-  		adults_count,
-  		child_count
-  	}
-}
