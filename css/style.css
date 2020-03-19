@@ -621,25 +621,49 @@ a {
     text-align: right;
 }
 .rating-1 {
-
+    background-image: url(../img/icons/star.svg);
+    background-repeat: space;
+    width: 85px;
+    height: 17px;
+    padding-top: 5px;
+    margin-bottom: 53px;
+    margin-left: auto;
 }
 .rating-2 {
-
+    background-image: url(../img/icons/star.svg);
+    background-repeat: space;
+    width: 85px;
+    height: 17px;
+    padding-top: 5px;
+    margin-bottom: 53px;
+    margin-left: auto;
 }
 .rating-3 {
-
+    background-image: url(../img/icons/star.svg);
+    background-repeat: space;
+    width: 85px;
+    height: 17px;
+    padding-top: 5px;
+    margin-bottom: 53px;
+    margin-left: auto;
 }
 .rating-4 {
     background-image: url(../img/icons/star.svg);
-    background-repeat: repeat-x;
-    width: 72px;
+    background-repeat: space;
+    width: 85px;
     height: 17px;
     padding-top: 5px;
-    padding-bottom: 53px;
+    margin-bottom: 53px;
     margin-left: auto;
 }
 .rating-5 {
-
+    background-image: url(../img/icons/star.svg);
+    background-repeat: space;
+    width: 85px;
+    height: 17px;
+    padding-top: 5px;
+    margin-bottom: 53px;
+    margin-left: auto;
 }
 .rating span::before {
     content: "";
