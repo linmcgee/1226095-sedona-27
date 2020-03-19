@@ -510,7 +510,8 @@ a {
     left: 80%;
 }
 .max-value-runner:hover, .min-value-runner:hover {
-    background: #1c4f80;
+    width: 5px;
+    height: 5px;
 }
 .filter-form legend {
     font-weight: bold;
@@ -571,8 +572,29 @@ a {
     height: 23px;
     font-size: 26px;
 }
-.filter-form input[type=checkbox]:focus+label::before {
+.filter-form input[type="checkbox"]:focus + label::before {
     outline:auto 2px #4D90FE;
+}
+.filter-form input[type="checkbox"]:disabled + label::before {
+    background-image: url("../img/icons/checkbox-off-block.svg");
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 23px;
+    height: 23px;
+    font-size: 26px;
+}
+.filter-form input[type="checkbox"]:checked:disabled + label::before {
+    background-image: url("../img/icons/checkbox-off-block.svg");
+    background-image: url("../img/icons/checkbox-on-block.svg");
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 27px;
+    height: 23px;
+    font-size: 26px;
 }
 .result-filter {
     background: #fefefe;
@@ -598,6 +620,27 @@ a {
 }
 .rating-full {
     text-align: right;
+}
+.rating-1 {
+
+}
+.rating-2 {
+
+}
+.rating-3 {
+
+}
+.rating-4 {
+    background-image: url(../img/icons/star.svg);
+    background-repeat: repeat-x;
+    width: 72px;
+    height: 17px;
+    padding-top: 5px;
+    padding-bottom: 53px;
+    margin-left: auto;
+}
+.rating-5 {
+
 }
 .rating span::before {
     content: "";
@@ -745,7 +788,7 @@ a {
     position: relative;
 }
 .date-field input {
-    width: 304px;;
+    width: 304px;
     height: 36px;
 }
 .quantity-field {

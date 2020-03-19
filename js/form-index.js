@@ -11,17 +11,13 @@ buttonSearchHotel.onclick = function(evt) {
 	arrivalDate.focus();
 };
 
-form.onsubmit = function (evt) {
+form.onsubmit = function(evt) {
+	evt.preventDefault();
 	form.classList.remove("form-error");
 	if (!arrivalDate.value || !quantityAdults.value || !quantityChildren.value) {
-		evt.preventDefault();
 		form.classList.remove("form-error");
 		form.offsetWidth = form.offsetWidth;
 		form.classList.add("form-error");
-	}
-	else { //валидные данные
-		console.log(arrivalDate.value, quantityAdults.value);
-		evt.preventDefault();//чтобы на е не переходить
 	}
 };
 
