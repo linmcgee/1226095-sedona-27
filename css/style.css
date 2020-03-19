@@ -586,7 +586,6 @@ a {
     font-size: 26px;
 }
 .filter-form input[type="checkbox"]:checked:disabled + label::before {
-    background-image: url("../img/icons/checkbox-off-block.svg");
     background-image: url("../img/icons/checkbox-on-block.svg");
     content: "";
     position: absolute;
