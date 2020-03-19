@@ -9,11 +9,6 @@ buttonSearchHotel.onclick = function(evt) {
 	form.classList.toggle("form-arrival-invisible");
 	form.classList.toggle("form-arrival-visible");
 	arrivalDate.focus();
-
-	counts = get_count();
-	quantityAdults.value = counts.adults_count ? counts.adults_count : 0;
-	quantityChildren.value = counts.child_count ? counts.child_count : 0;
-	set_count(quantityChildren.value, quantityAdults.value)
 };
 
 form.onsubmit = function (evt) {
