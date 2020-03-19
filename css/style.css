@@ -611,58 +611,57 @@ a {
     font-weight: bold;
     margin-top: 15px;
 }
-.rating {
-    text-align: right;
-    margin-left: auto;
-    padding-bottom: 47px;
-    padding-top: 2px;
-}
 .rating-full {
     text-align: right;
 }
 .rating-1 {
     background-image: url(../img/icons/star.svg);
     background-repeat: space;
-    width: 85px;
+    width: 18px;
     height: 17px;
     padding-top: 5px;
-    margin-bottom: 53px;
+    margin-bottom: 46px;
     margin-left: auto;
+    margin-top: 2px;
 }
 .rating-2 {
     background-image: url(../img/icons/star.svg);
     background-repeat: space;
-    width: 85px;
+    width: 40px;
     height: 17px;
     padding-top: 5px;
-    margin-bottom: 53px;
+    margin-bottom: 46px;
+    margin-top: 2px;
     margin-left: auto;
 }
 .rating-3 {
     background-image: url(../img/icons/star.svg);
     background-repeat: space;
-    width: 85px;
+    width: 65px;
     height: 17px;
     padding-top: 5px;
-    margin-bottom: 53px;
+    margin-bottom: 46px;
+    margin-top: 2px;
     margin-left: auto;
 }
 .rating-4 {
     background-image: url(../img/icons/star.svg);
     background-repeat: space;
-    width: 85px;
+    width: 90px;
     height: 17px;
     padding-top: 5px;
-    margin-bottom: 53px;
+    margin-bottom: 46px;
+    margin-top: 2px;
     margin-left: auto;
 }
 .rating-5 {
     background-image: url(../img/icons/star.svg);
     background-repeat: space;
-    width: 85px;
+    width: 107px;
     height: 17px;
     padding-top: 5px;
-    margin-bottom: 53px;
+    margin-bottom: 46px;
+    margin-top: 2px;
     margin-left: auto;
 }
 .rating span::before {
@@ -687,23 +686,6 @@ a {
     display: flex;
     justify-content: space-between;
     line-height: 17px;
-}
-.stars {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    padding-bottom: 50px;
-    justify-content: flex-end;
-}
-.stars li {
-    background-image: url("../img/icons/star.svg");
-    background-repeat: no-repeat;
-    background-position: right;
-    width: 18px;
-    height: 17px;
-    padding-top: 4px;
-    padding-right: 6px;
 }
 .detail {
     padding: 5px 17px;
