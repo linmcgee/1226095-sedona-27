@@ -614,55 +614,29 @@ a {
 .rating-full {
     text-align: right;
 }
-.rating-1 {
+.rating {
     background-image: url(../img/icons/star.svg);
     background-repeat: space;
-    width: 18px;
     height: 17px;
     padding-top: 5px;
     margin-bottom: 46px;
     margin-left: auto;
     margin-top: 2px;
+}
+.rating-1 {
+    width: 18px;
 }
 .rating-2 {
-    background-image: url(../img/icons/star.svg);
-    background-repeat: space;
     width: 40px;
-    height: 17px;
-    padding-top: 5px;
-    margin-bottom: 46px;
-    margin-top: 2px;
-    margin-left: auto;
 }
 .rating-3 {
-    background-image: url(../img/icons/star.svg);
-    background-repeat: space;
     width: 65px;
-    height: 17px;
-    padding-top: 5px;
-    margin-bottom: 46px;
-    margin-top: 2px;
-    margin-left: auto;
 }
 .rating-4 {
-    background-image: url(../img/icons/star.svg);
-    background-repeat: space;
-    width: 90px;
-    height: 17px;
-    padding-top: 5px;
-    margin-bottom: 46px;
-    margin-top: 2px;
-    margin-left: auto;
+    width: 85px;
 }
 .rating-5 {
-    background-image: url(../img/icons/star.svg);
-    background-repeat: space;
     width: 107px;
-    height: 17px;
-    padding-top: 5px;
-    margin-bottom: 46px;
-    margin-top: 2px;
-    margin-left: auto;
 }
 .rating span::before {
     content: "";
