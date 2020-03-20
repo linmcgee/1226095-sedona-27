@@ -99,7 +99,7 @@ a {
 .basic-info {
     width: 1200px;
     padding-top: 60px;
-    padding-bottom: 54px;
+    padding-bottom: 52px;
     text-align: center;
 }
 .basic-info h1 {
@@ -168,7 +168,7 @@ a {
     width: 400px;
     background-color: #ffffff;
     padding-top: 55px;
-    padding-bottom: 69px;
+    padding-bottom: 68px;
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
@@ -189,8 +189,8 @@ a {
     font-size: 14px;
     text-align: center;
     width: 400px;
-    padding-top: 46px;
-    padding-bottom: 39px;
+    padding-top: 47px;
+    padding-bottom: 37px;
     box-sizing: border-box;
 }
 .features-grey h3 {
