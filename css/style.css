@@ -420,7 +420,7 @@ a {
     background-image: url("../img/filter-background.jpg");
     background-position: top center;
     background-repeat: no-repeat;
-    padding-top: 24px;
+    padding-top: 22px;
     padding-bottom: 15px;
     line-height: 30px;
     display: flex;
@@ -633,7 +633,7 @@ a {
     width: 65px;
 }
 .rating-4 {
-    width: 85px;
+    width: 89px;
 }
 .rating-5 {
     width: 107px;
