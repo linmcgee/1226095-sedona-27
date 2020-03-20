@@ -727,6 +727,23 @@ a {
         opacity: 1;
     }
 }
+@keyframes bounce {
+    0% {
+      transform: translateY(-395px);
+    }
+  
+    70% {
+      transform: translateY(-200px);
+    }
+  
+    90% {
+      transform: translateY(-50px);
+    }
+  
+    100% {
+      transform: translateY(0);
+    }
+  }
 .form-arrival-invisible {
     display: none;
 }
