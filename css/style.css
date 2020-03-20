@@ -99,7 +99,7 @@ a {
 .basic-info {
     width: 1200px;
     padding-top: 60px;
-    padding-bottom: 52px;
+    padding-bottom: 54px;
     text-align: center;
 }
 .basic-info h1 {
@@ -176,7 +176,7 @@ a {
 }
 .features-white h4 {
     padding-top: 78px;
-    margin-bottom: 19px;
+    margin-bottom: 20px;
     font-weight: bold;
     font-size: 21px;
 }
@@ -189,8 +189,8 @@ a {
     font-size: 14px;
     text-align: center;
     width: 400px;
-    padding-top: 47px;
-    padding-bottom: 37px;
+    padding-top: 46px;
+    padding-bottom: 39px;
     box-sizing: border-box;
 }
 .features-grey h3 {
@@ -273,7 +273,7 @@ a {
     color: #000000;
     font-weight: bold;
     padding-left: 125px;
-    margin-top: 29px;
+    margin-top: 28px;
     width: 275px;
 }
 .contact-info-catalog {
