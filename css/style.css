@@ -282,7 +282,7 @@ a {
     color:#000000;
     font-weight: bold;
     padding-left: 128px;
-    margin-top: 29px;
+    margin-top: 28px;
     width: 272px;
 }
 .contact-info-index p, .contact-info-catalog p {
@@ -331,7 +331,7 @@ a {
     background-color: #5496bd;
 }
 .developer {
-    margin-top: 30px;
+    margin-top: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
