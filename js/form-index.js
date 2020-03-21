@@ -12,7 +12,6 @@ buttonSearchHotel.addEventListener("click", function(evt) {
   } else {
     form.classList.remove("form-error");
   }
-
 });
 
 form.addEventListener("submit", function(evt) {
@@ -28,7 +27,7 @@ window.addEventListener("keydown", function(evt) {
   if (evt.keyCode === 27) {
     evt.preventDefault();
     if (form.classList.contains("form-arrival-visible")) {
-      form.classList.add("form-arrival-invisible");
+      form.classList.remove("form-arrival-visible");
     }
   }
 });
