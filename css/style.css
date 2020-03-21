@@ -276,21 +276,17 @@ a {
     color: #000000;
 }
 
-.interesing-block {
-    padding-left: 315px;
-    padding-right: 315px;
-    text-align: center;
-    padding-top: 57px;
+.interesting-block {
     position: relative;
 }
 
-.interesing-block p {
+.interesting-block p {
     margin-bottom: 47px;
     margin-top: 32px;
     line-height: 24px;
 }
 
-.interesing-block h4 {
+.interesting-block h4 {
     margin: 0;
     font-size: 30px;
 }
@@ -896,7 +892,7 @@ a {
 
 @-webkit-keyframes bounce {
     0% {
-        -webkit-transform: translateY(-290px);
+        -webkit-transform: translateY(-270px);
     }
     100% {
         -webkit-transform: translateY(0);
@@ -905,8 +901,8 @@ a {
 
 @keyframes bounce {
     0% {
-        -webkit-transform: translateY(-290px);
-        transform: translateY(-290px);
+        -webkit-transform: translateY(-270px);
+        transform: translateY(-270px);
     }
     100% {
         -webkit-transform: translateY(0);
@@ -914,9 +910,14 @@ a {
     }
 }
 
-.interesing-text-block {
+.interesting-text-block {
     z-index: 10;
     position: relative;
+    padding-left: 315px;
+    padding-right: 315px;
+    text-align: center;
+    padding-top: 57px;
+    background: white;
 }
 
 .form-arrival {
