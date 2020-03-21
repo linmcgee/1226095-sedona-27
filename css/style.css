@@ -312,7 +312,6 @@ a {
     background-color: #cbdda9;
     background-image: url("../img/map.jpg");
     background-repeat: no-repeat;
-    z-index: 3;
 }
 
 .map iframe {
@@ -917,6 +916,7 @@ a {
 
 .interesing-text-block {
     z-index: 10;
+    position: relative;
 }
 
 .form-arrival {

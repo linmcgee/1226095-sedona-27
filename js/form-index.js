@@ -4,6 +4,7 @@ var buttonSearchHotel = document.querySelector(".search-hotel");
 var arrivalDate = form.querySelector("[name=arrival-date]");
 var quantityAdults = form.querySelector("[name=adults]");
 var quantityChildren = form.querySelector("[name=children]");
+form.classList.add("form-arrival-invisible");
 
 buttonSearchHotel.addEventListener("click", function(evt) {
     form.classList.toggle("form-arrival-invisible");
