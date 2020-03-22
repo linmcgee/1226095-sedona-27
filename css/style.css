@@ -242,6 +242,8 @@ a {
     padding-bottom: 39px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    z-index: 10;
+    position: relative;
 }
 
 .features-grey h3 {
@@ -910,6 +912,26 @@ a {
     }
 }
 
+@-webkit-keyframes bounce-close {
+    0% {
+        -webkit-transform: translateY(0px);
+    }
+    100% {
+        -webkit-transform: translateY(-400px);
+    }
+}
+
+@keyframes bounce-close {
+    0% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(-400px);
+        transform: translateY(-400px);
+    }
+}
+
 .interesting-text-block {
     z-index: 10;
     position: relative;
@@ -935,7 +957,8 @@ a {
 }
 
 .form-arrival-invisible {
-    display: none;
+    -webkit-animation: bounce-close 0.7s;
+    animation: bounce-close 0.7s;
 }
 
 @-webkit-keyframes shake {
