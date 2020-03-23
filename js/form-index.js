@@ -8,6 +8,7 @@ form.classList.add("form-arrival-invisible");
 
 buttonSearchHotel.addEventListener("click", function(evt) {
     form.classList.toggle("form-arrival-invisible");
+    form.classList.toggle("form-arrival-visible");
     if (form.classList.contains("form-arrival-invisible")) {
         form.classList.remove("form-error");
     } else {
@@ -29,6 +30,7 @@ window.addEventListener("keydown", function(evt) {
         evt.preventDefault();
         if (!form.classList.contains("form-arrival-invisible")) {
             form.classList.add("form-arrival-invisible");
+            form.classList.remove("form-arrival-visible");
         }
     }
 });

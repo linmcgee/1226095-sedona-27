@@ -932,6 +932,11 @@ a {
     }
 }
 
+.form-arrival-visible {
+    -webkit-animation: bounce 0.7s;
+    animation: bounce 0.7s;
+}
+
 .interesting-text-block {
     z-index: 10;
     position: relative;
@@ -959,6 +964,9 @@ a {
 .form-arrival-invisible {
     -webkit-animation: bounce-close 0.7s;
     animation: bounce-close 0.7s;
+
+    -webkit-transform: translateY(-400px);
+    transform: translateY(-400px);
 }
 
 @-webkit-keyframes shake {
